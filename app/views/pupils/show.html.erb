@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @pupil.name %>
+</p>
+
+<p>
+  <b>Form:</b>
+  <%= @pupil.form %>
+</p>
+
+
+<%= link_to 'Edit', edit_pupil_path(@pupil) %> |
+<%= link_to 'Back', pupils_path %>
